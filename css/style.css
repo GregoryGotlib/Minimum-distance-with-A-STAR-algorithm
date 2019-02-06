@@ -1,0 +1,97 @@
+
+body {
+ font-family: 'Indie Flower', cursive;
+ text-align: center;
+}
+
+.jumbotron{
+  width: 25cm;
+  margin-left: 8cm;
+  border-radius: 25px;
+  border-style:outset;
+}
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 150%;
+}
+
+.container p {
+  font-size: 100%;
+  display: inline-block;
+}
+.gridContainer{
+  font-size: 100%;
+  display: inline-block;
+  background-color:lightyellow;
+}
+
+.fa-custom {
+  font-size: 7vmin;
+  text-align: center;
+}
+
+.play {
+  width: 40vmax;
+  height: 60vmin;
+  margin: auto;
+  padding: 0px;
+  border: 1px solid #888;
+  backgroud-color: rgb(0,0,0);
+}
+
+.box {
+  width: 4vmax;
+  height: 4vmax;
+  display: inline-block;
+  text-align: center;
+  padding-top:20px;
+  vertical-align: top;
+  margin: 0px;
+}
+
+.gridBox{
+  width: 4vmax;
+  height: 4vmax;
+  display: inline-block;
+  background-color:lightyellow;
+  text-align: center;
+  vertical-align: top;
+}
+
+#rbtn{
+  margin-left:20px;
+}
+
+.obox {
+    display: inline-block;
+    text-align: center;
+}
+
+#ebox {
+  background-color: lightyellow;
+  border-style:outset;
+}
+
+#obstacle {
+  background-color: black;
+}
+
+#start {
+  background-color: green;
+}
+
+#end{
+  background-color: red;
+}
+
+#rbtn{
+  border-style:outset;
+  margin-bottom:20px;
+}
+#gbtn{
+  border-style:outset;
+  margin-bottom:20px;
+}

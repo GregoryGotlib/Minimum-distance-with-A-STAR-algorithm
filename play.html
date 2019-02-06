@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Minimum distance - A* algorithm</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link rel="stylesheet" href="Custom.css">
+	<title>User Interface</title>
+</head>
+
+<body>
+  <div class="jumbotron">
+	  <h1> Finding the minimum distance of an agent - A* algorithm </h1>
+    <h3> <i class="fas fa-user"></i> Gegory Gotlib - 311794705 </h3>
+    <h3> <i class="fas fa-user"></i> Natali Amzaleg - 30875530 </h3>
+  </div>
+  <p> <i class="fas fa-caret-right"></i> To start the program insert obstacles and then push the Start button </p>
+  <p> <i class="fas fa-caret-right"></i> To renew the program push the Replay button </p>
+   <br>
+	<div class="container">
+		<div class="obox"><div class="box" id="ebox"></div><br><p>Empty Box</p>&nbsp;</div>
+		<div class="obox"><button  onClick="setColorFlag(1)" class="box" id="obstacle"></button><br><p>Obstacle</p>&nbsp;</div>
+		<div class="obox"><button  onClick="setColorFlag(2)" class="box" id="start"></button><br><p>Start</p>&nbsp;</div>
+    <div class="obox"><button  onClick="setColorFlag(3)" class="box" id="end"></button><br><p>End</p>&nbsp;</div>
+		<br>
+	</div>
+	<br>
+	<div class="container"></div>
+	<br>
+	<center>
+		<button id="gbtn" class="btn btn-success" onclick="A_STAR()" style="font-size: 20px">Start</button>
+		<button id="rbtn" class="btn btn-info" onclick="resetAll()" style="font-size: 20px">Replay</button></center>
+	<script src="Custom.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
